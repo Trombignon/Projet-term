@@ -1,2 +1,2 @@
-# Projet-term
+# Projet-Term
 Jeu
