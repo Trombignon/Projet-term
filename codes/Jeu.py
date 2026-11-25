@@ -1,5 +1,6 @@
 import pygame
-from scenes import SceneJeu
+from Scenes import SceneJeu
+from Joueur import Joueur
 
 pygame.init()
 
@@ -27,6 +28,9 @@ class Jeu:
     def set_running(self, run):
         """
         Méthode pour changer la valeur de self.running.
+        
+        Parmètre:
+        run (bool): prends un boolèen en paramètre
         """
         assert isinstance(run, bool), "La variable mit en paramètre n'est un booléen"
         

@@ -8,4 +8,3 @@ class Joueur:
 
     def update(self, dt):
         pass
-        

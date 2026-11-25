@@ -1,8 +1,17 @@
 import pygame
 
 class SceneJeu:
-     
+    """
+    Classe pour la scene de jeu.
+    """
     def __init__(self, jeu):
+        """
+        Constructeur qui initialise les variable pour la scene.
+        
+        Parametre:
+        Prends en parametre l'objet Jeu()
+        """
+        #assert isinstance(jeu, Jeu), "La variable mit en parametre n'est pas l'objet Jeu()"
         self.jeu = jeu
         self.perso = pygame.image.load("../images/PERSO-32.png")
         self.perso = pygame.transform.scale(self.perso, (128, 128))
