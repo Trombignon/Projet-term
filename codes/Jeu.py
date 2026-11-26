@@ -1,6 +1,5 @@
 import pygame
 from Scenes import SceneJeu
-from Joueur import Joueur
 
 pygame.init()
 
