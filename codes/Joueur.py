@@ -1,4 +1,5 @@
 import pygame
+from Outils import SpriteSheet
 
 class Joueur:
     

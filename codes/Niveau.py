@@ -1,4 +1,5 @@
 import pygame, csv
+from Outils import SpriteSheet
 
 class Tuile:
     

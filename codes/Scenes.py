@@ -1,5 +1,6 @@
 import pygame
 from Joueur import Joueur
+from Niveau import Niveau
 
 
 class SceneJeu:
